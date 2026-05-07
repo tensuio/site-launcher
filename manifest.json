@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Site Launcher",
+  "version": "1.0",
+  "description": "Quickly open your favorite sites",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open launcher",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["tabs"]
+}
